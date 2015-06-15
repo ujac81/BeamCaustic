@@ -13,9 +13,9 @@ import math
 import vtk
 
 EMIT_RAD = 1.  # bottom emitting radius
-Z_LEN = 5.  # length is axial direction
+Z_LEN = 5.  # length in axial direction
 N_PHI = 360  # number of beams
-THETA = 20. / 180. * math.pi  # radial "inswards" angle
+THETA = 20. / 180. * math.pi  # radial "inwards" angle
 TAU = 10. / 180. * math.pi  # tangential tilt angle
 
 def add_line(points, ugrid, phi):
